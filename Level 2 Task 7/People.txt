@@ -1,0 +1,4 @@
+1,Contractor,Jan,088528888,jan1@gmail.com,43 Yellow Street
+2,Architect,James,0745844694,james@gmail.com,16 Python street
+3,Customer,Jane,0725824600,jane@gmail.com,4 Yolk Drive
+4,Architect,Hanno,078482369,hanno@gmail.com,13 Kruis Street

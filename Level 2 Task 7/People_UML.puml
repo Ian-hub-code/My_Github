@@ -1,0 +1,42 @@
+@startuml
+class Project_People{
+
+    +String type
+    +String name
+    +String number
+    +String email
+    +String address
+    +getType()
+    +getName()
+    +getNumber()
+    +getEmail()
+    +getAddress()
+}
+
+Project_People <--- Contractor
+Project_People <--- Architect
+Project_People <--- Customer
+
+class Project_Fees{
+    +int projectID
+    +double projectTotalFee
+    +double projectFeePaid
+    +getProjectID()
+    +getProjectTotalFee()
+    +getProjectFeePaid()
+}
+
+class Project_Info{
+    +int ProjectID
+    +String ProjectName
+    +String ProjectType
+    +String ProjectAddress
+    +int ProjectErf
+    +String ProjectDeadline
+    +getProjectID()
+    +getProjectName()
+
+}
+
+
+@enduml

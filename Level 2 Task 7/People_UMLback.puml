@@ -1,0 +1,48 @@
+@startuml
+class PoisedPM{
+    +public static void main()
+}
+class Project{
+    +int ProjectID
+    +String projectName
+    +String projectType
+    +String projectAddress
+    +String projectErf
+    +String projectDeadline
+    +String projectFee
+    +getProjectID()
+    +getProjectName()
+    +getProjectAddress()
+    +getProjectErf()
+    +getProjectDeadline()
+    +getProjectFee()
+    +getProjectFeePaid()
+    +stringToString()
+    +WriteToProject()
+    +EditDueDate()
+    +EditFeePaid()
+    +displayProjects()
+
+}
+class People{
+    +String ID
+    +String type
+    +String name
+    +String number
+    +String email
+    +String address
+    +getProjectID()
+    +getType()
+    +getName()
+    +getNumber()
+    +getEmail()
+    +getAddress()
+    +WriteToPeople()
+    +displayPeople()
+    +EditContractorDetails()
+}
+PoisedPM <--- People
+PoisedPM <--- Project
+
+
+@enduml

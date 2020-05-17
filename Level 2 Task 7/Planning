@@ -1,0 +1,36 @@
+Poised Structural Engineering Specifications
+
+// project_information
+
+- Project number (ID) [int]
+- Project name	[string]
+- Type building	[string]
+- Project address [string]
+- Erf number [int]
+- Deadline [date]
+
+// project_fees
+
+- Project number (ID) [int]
+- Total project fee [double]
+- Amount paid to date [double]
+
+// project_people
+
+- Architect
+	name [string]
+	telephone number [string]
+	email [string]
+	address [string]
+
+- Contractor
+	name [string]
+	telephone number [string]
+	email [string]
+	address [string]
+
+- Customer
+	name [string]
+	telephone number [string]
+	email [string]
+	address [string]
