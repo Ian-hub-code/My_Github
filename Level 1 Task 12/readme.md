@@ -1,1 +1,1 @@
-Hello
+A fincance calculator program
